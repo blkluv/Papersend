@@ -23,7 +23,13 @@ export type DEFAULT_DOCUMENT_VIEW_TYPE = {
   file: string;
 };
 
-export default function DocumentView({ link, error }: { link: LinkWithDocument; error: any }) {
+export default function DocumentView({
+  link,
+  error,
+}: {
+  link: LinkWithDocument;
+  error: any;
+}) {
   const { data: session } = useSession();
   const plausible = usePlausible();
 
@@ -150,7 +156,7 @@ export default function DocumentView({ link, error }: { link: LinkWithDocument; 
   ) {
     return (
       <div className="h-screen bg-gray-900">
-        <img className="w-full h-full" src={viewData.file} />
+        <img className="w-full h-full" alt="Document" src={viewData.file} />
       </div>
     );
   }

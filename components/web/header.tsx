@@ -9,10 +9,11 @@ export default function Header() {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <div className="hidden sm:mt-32 sm:flex lg:mt-16"></div>
             <h1 className="mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-5xl">
-              Papermark will make your pitchdeck stand out
+              CompanyName will make your pitchdeck stand out
             </h1>
             <p className="mt-2 text-lg leading-8 text-gray-600">
-              The Open-Source Docsend Alternative to securely share documents with real-time analytics.
+              The Open-Source Docsend Alternative to securely share documents
+              with real-time analytics.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <Link
@@ -34,8 +35,10 @@ export default function Header() {
           <div className="relative md:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0 mt-6   ">
             <img
               className="aspect-[3/2] w-full  object-contain lg:absolute lg:inset-0 lg:aspect-auto lg:h-full lg:w-3/4"
-              src="https://www.papermark.io/_static/image3.png"
+              src="/_static/image3.png"
               alt=""
+              width={539}
+              height={422}
             />
           </div>
         </div>

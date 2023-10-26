@@ -23,6 +23,19 @@ https://vercel.com/design/gauge
   <p><em>Chakra Component Library with Next.js</em></p>
 </div> -->
 
+### Tasks:
+
+- GitHub auth
+- Google auth
+- Tinybird
+- Resend emails
+- Vercel Blob (on waitlist)
+- Use Cloudflare R2 or AWS S3 blob
+- PDF Viewer
+- Light/Dark mode
+- Verify database table operations
+-
+
 ## Node Environment:
 
 ```java
@@ -34,6 +47,8 @@ nvm use 18
 see `.env.example`
 
 ```java
+# NEXTAUTH_SECRET= # Linux: `openssl rand -hex 32` or go to https://generate-secret.now.sh/32
+
 NEXTAUTH_SECRET=my-superstrong-secret
 NEXTAUTH_URL=http://localhost:3000
 
